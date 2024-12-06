@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href='styles/style.css' rel='stylesheet' type='text/css'>
+        <title>Lageplan</title>
+    </head>
+
+    <body>
+        <img src="../images/Geb1-Keller.jpg" alt="Geb1-Keller" usemap="#Geb1-Keller-Map">
+
+        <map name="Geb1-Keller-Map">
+            <area class="Raum1K12" id="Raum1K12" shape="poly" coords="1095,1255,1153,753,1288,747,1269,895,1443,901,1417,1267" alt="Raum1K12" onclick="showRaum1K12()">
+        </map>
+
+        <a href="../homepageGebäude1.html"><img class="return" src="../images/Return.jpg" alt="Return"></a>
+
+        <div class="PopUp1K12" id="PopUp1K12">
+            <div class="hide" onclick="closeAllPopUps()">X</div>
+            <div class="Room">
+                Raum 1K12
+            </div>
+            <div class="Content">
+                Schulsanitätsdienst
+            </div>
+        </div>
+
+        <script src="javascript.js"></script>
+    </body>
+</html>

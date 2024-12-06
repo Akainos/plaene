@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gebäude 5</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding-top: 120px; /* Platz für das fixierte Logo */
+        }
+
+        #logo {
+            position: fixed;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            margin: 10px 0;
+            background-color: white;
+            z-index: 1000;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .image-box {
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .image-box img,
+        .image-box .placeholder {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            background-color: lightgray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #ccc;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .image-box img {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .image-box p {
+            margin-top: 10px;
+            text-align: center;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .placeholder {
+            font-size: 1.5rem;
+            color: #555;
+        }
+
+        #text-container {
+            margin-top: 20px; /* Abstand zu den Bildern */
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+        }
+ 
+        #text-container p {
+            font-size: 1rem;
+            color: #333;
+            line-height: 1.5;
+            margin: 0;
+        }
+	    #fixed-footer {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 1px solid #ccc;
+            padding: 10px 15px;
+            font-size: 0.9rem;
+            color: #333;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div id="logo">
+        <img src="STBLogo.jpg" alt="Logo" style="max-width: 100%; max-height: 100px;">
+    </div>
+    <div class="image-container">
+        <div class="image-box" onclick="location.href='Geb5-EG/Geb5-EG-Code.html';">
+            <img src="images/Geb5-EG.jpg" alt="BildEG">
+        <p>Erdgeschoss</p>
+        </div>
+        <div class="image-box" onclick="location.href='Geb5-OG1/Geb5-OG1-Code.html';">
+            <img src="images/Geb5-OG1.jpg" alt="BildG1">
+        <p>1. Geschoss</p>
+        </div>
+        <div class="image-box" onclick="location.href='Geb5-OG2/Geb5-OG2-Code.html';">
+            <img src="images/Geb5-OG2.jpg" alt="BildG2">
+        <p>2. Geschoss</p>
+        </div>
+    </div>
+    <div id="text-container">
+        <p>Zum Verwenden bitte Stockwerk oder im gewählten Stockwerk einen nummerierten Raum auswählen</p>
+    </div>
+    <div id="fixed-footer">
+                Lana Berger, Neele Berger, Gabriel Lohmann, Enno Vu (10b)
+    </div>
+</body>
+</html>

@@ -1,0 +1,134 @@
+body {
+    position:relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.PopUpFoyer {
+    position: absolute;
+    top: 45%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    background-color: #f00000;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    display: none;
+    border: black;
+    border: solid;
+}
+
+.PopUp4001 {
+    position: absolute;
+    top: 43%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    background-color: #f00000;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    display: none;
+    border: black;
+    border: solid;
+}
+
+.PopUp4003 {
+    position: absolute;
+    top: 47%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    background-color: #f00000;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    display: none;
+    border: black;
+    border: solid;
+}
+
+.PopUp4004 {
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    background-color: #f00000;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    display: none;
+    border: black;
+    border: solid;
+}
+
+.PopUp4008 {
+    position: absolute;
+    top: 30%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+    background-color: #f00000;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    display: none;
+    border: black;
+    border: solid;
+}
+
+.PopUp4009 {
+    position: absolute;
+    top: 33%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    background-color: #f00000;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    display: none;
+    border: black;
+    border: solid;
+}
+
+.PopUp4010 {
+    position: absolute;
+    top: 35%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    background-color: #f00000;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    display: none;
+    border: black;
+    border: solid;
+}
+
+.Room {
+    font-family: Arial Black;
+    font-size: 300%;
+}
+
+.Content {
+    font-family: Arial Black;
+    font-size: 150%;
+}
+
+.hide {
+    font-family: Arial Black;
+    font-size: 150%;
+    text-align: right;
+}
+
+.return {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    height: 8%;
+}

@@ -1,0 +1,44 @@
+body {
+    position:relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.PopUp1K12 {
+    position: absolute;
+    top: 48%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    background-color: #f00000;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    display: block;
+    border: black;
+    border: solid;
+}
+
+.Room {
+    font-family: Arial Black;
+    font-size: 300%;
+}
+
+.Content {
+    font-family: Arial Black;
+    font-size: 150%;
+}
+
+.hide {
+    font-family: Arial Black;
+    font-size: 150%;
+    text-align: right;
+}
+
+.return {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    height: 8%;
+}

@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href='styles/style.css' rel='stylesheet' type='text/css'>
+        <title>Lageplan</title>
+    </head>
+
+    <body>
+        <img src="../images/GebXY-Z.png" alt="GebXY-Z" usemap="#GebXY-Z-Map">
+
+        <map name="GebXY-Z-Map">
+            <area class="RaumXY" id="RaumXY" shape="poly" coords="1125,620,1441,607,1409,1168,1073,1149" alt="RaumXY" onclick="showRaumXY()">
+        </map>
+
+        <a href="../homepageGebäudeXY.html"><img class="return" src="../images/Return.png" alt="Return"></a>
+
+        <div class="PopUpXY" id="PopUpXY">
+            <div class="hide" onclick="closeAllPopUps()">X</div>
+            <div class="Room">
+                Raum XY
+            </div>
+            <div class="Content">
+                Aktion
+            </div>
+        </div>
+
+        <script src="javascript.js"></script>
+    </body>
+</html>

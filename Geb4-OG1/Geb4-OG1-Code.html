@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href='styles/style.css' rel='stylesheet' type='text/css'>
+        <title>Lageplan</title>
+    </head>
+
+    <body>
+        <img src="../images/Geb4-OG1.jpg" alt="Geb4-OG1" usemap="#Geb4-OG1-Map">
+
+        <map name="Geb4-OG1-Map">
+            <area class="Raum4101" id="Raum4101" shape="poly" coords="787,740,1179,702,1218,1152,767,1190" alt="Raum4101" onclick="showRaum4101()">
+            <area class="Raum4103" id="Raum4103" shape="poly" coords="1488,1139,1488,933,1951,882,1989,1107" alt="Raum4103" onclick="showRaum4103()">
+            <area class="Raum4104" id="Raum4104" shape="poly" coords="1957,901,2427,856,2472,1062,1996,1094" alt="Raum4104" onclick="showRaum4104()">
+            <area class="Raum4105" id="Raum4105" shape="poly" coords="2440,856,2877,811,2941,1010,2472,1049" alt="Raum4105" onclick="showRaum4105()">
+        </map>
+
+        <a href="../homepageGebäude4.html"><img class="return" src="../images/Return.jpg" alt="Return"></a>
+
+        <div class="PopUp4101" id="PopUp4101">
+            <div class="hide" onclick="closeAllPopUps()">X</div>
+            <div class="Room">
+                Raum 4101
+            </div>
+            <div class="Content">
+                <p>Neigung Theater</p>
+                <p>Aufführung Sketch "Mädchenparty"</p>
+                <p>10:30; 12:30; 13:00</p>
+                <p>Dauer: 10 Min</p>
+            </div>
+        </div>
+
+        <div class="PopUp4103" id="PopUp4103">
+            <div class="hide" onclick="closeAllPopUps()">X</div>
+            <div class="Room">
+                Raum 4103
+            </div>
+            <div class="Content">
+                <p>Angebot Pädagogik</p>
+                <p>Basteln, Schminken, Buttons</p>
+                <p>Kinderbetreuung</p>
+            </div>
+        </div>
+
+        <div class="PopUp4104" id="PopUp4104">
+            <div class="hide" onclick="closeAllPopUps()">X</div>
+            <div class="Room">
+                Raum 4104
+            </div>
+            <div class="Content">
+                <p>Arbänder knüpfen: 11:00-13:00</p>
+                <p>Spiele spielen: 09:00-14:00</p>
+            </div>
+        </div>
+
+        <div class="PopUp4105" id="PopUp4105">
+            <div class="hide" onclick="closeAllPopUps()">X</div>
+            <div class="Room">
+                Raum 4105
+            </div>
+            <div class="Content">
+                <p>Gesellschaftswissenschaften:</p>
+                <p>Geschichte</p>
+                <p>Politik</p>
+                <p>Erdkunde</p>
+            </div>
+        </div>
+
+        <script src="javascript.js"></script>
+    </body>
+</html>

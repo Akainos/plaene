@@ -1,0 +1,74 @@
+body {
+    position:relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.PopUp5104 {
+    position: absolute;
+    top: 69%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background-color: #f00000;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    display: none;
+    border: black;
+    border: solid;
+}
+
+.PopUp5108 {
+    position: absolute;
+    top: 16%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    background-color: #f00000;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    display: none;
+    border: black;
+    border: solid;
+}
+
+.PopUpFlur {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f00000;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    display: none;
+    border: black;
+    border: solid;
+}
+
+.Room {
+    font-family: Arial Black;
+    font-size: 300%;
+}
+
+.Content {
+    font-family: Arial Black;
+    font-size: 150%;
+}
+
+.hide {
+    font-family: Arial Black;
+    font-size: 150%;
+    text-align: right;
+}
+
+.return {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    height: 8%;
+}

@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href='styles/style.css' rel='stylesheet' type='text/css'>
+        <title>Lageplan</title>
+    </head>
+
+    <body>
+        <img src="../images/Geb5-OG1.jpg" alt="Geb5-OG1" usemap="#Geb5-OG1-Map">
+
+        <map name="Geb5-OG1-Map">
+            <area class="Raum5104" id="Raum5104" shape="poly" coords="1125,620,1441,607,1409,1168,1073,1149" alt="Raum5104" onclick="showRaum5104()">
+            <area class="Raum5108" id="Raum5108" shape="poly" coords="1125,620,1441,607,1409,1168,1073,1149" alt="Raum5108" onclick="showRaum5108()">
+            <area class="RaumFlur" id="RaumFlur" shape="poly" coords="1125,620,1441,607,1409,1168,1073,1149" alt="RaumFlur" onclick="showRaumFlur()">
+        </map>
+
+        <a href="../homepageGebäude5.html"><img class="return" src="../images/Return.jpg" alt="Return"></a>
+
+        <div class="PopUp5104" id="PopUp5104">
+            <div class="hide" onclick="closeAllPopUps()">X</div>
+            <div class="Room">
+                Raum 5104
+            </div>
+            <div class="Content">
+                Energie-Experimente
+            </div>
+        </div>
+
+        <div class="PopUp5108" id="PopUp5108">
+            <div class="hide" onclick="closeAllPopUps()">X</div>
+            <div class="Room">
+                Raum 5108
+            </div>
+            <div class="Content">
+                <p>Stündl. Mitmachstation</p>
+                <p>Biodiplom</p>
+                <p>Stabschrecken live</p>
+            </div>
+        </div>
+
+        <div class="PopUpFlur" id="PopUpFlur">
+            <div class="hide" onclick="closeAllPopUps()">X</div>
+            <div class="Room">
+                Flur
+            </div>
+            <div class="Content">
+                Plätzchen- und Kerzenverkauf
+            </div>
+        </div>
+
+        <script src="javascript.js"></script>
+    </body>
+</html>

@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href='styles/style.css' rel='stylesheet' type='text/css'>
+        <title>Lageplan</title>
+    </head>
+
+    <body>
+        <img src="../images/Geb1-EG.jpg" alt="Geb1-EG" usemap="#Geb1-EG-Map">
+
+        <map name="Geb1-EG-Map">
+            <area class="Raum1002" id="Raum1002" shape="poly" coords="1134,895,1423,889,1404,1249,1102,1255" alt="Raum1002" onclick="showRaum1002()">
+            <area class="Raum1003" id="Raum1003" shape="poly" coords="1089,1249,1404,1249,1391,1654,1044,1648" alt="Raum1003" onclick="showRaum1003()">
+            <area class="Raum1004" id="Raum1003" shape="poly" coords="1050,1660,1378,1654,1359,2098,992,2104" alt="Raum1003" onclick="showRaum1004()">
+            <area class="Raum1006" id="Raum1006" shape="poly" coords="2131,291,2523,349,2433,735,2015,664" alt="Raum1006" onclick="showRaum1006()">
+        </map>
+
+        <a href="../homepageGebäude1.html"><img class="return" src="../images/Return.jpg" alt="Return"></a>
+
+        <div class="PopUp1002" id="PopUp1002">
+            <div class="hide" onclick="closeAllPopUps()">X</div>
+            <div class="Room">
+                Raum 1002
+            </div>
+            <div class="Content">
+                Latein & Griechisch
+            </div>
+        </div>
+
+        <div class="PopUp1003" id="PopUp1003">
+            <div class="hide" onclick="closeAllPopUps()">X</div>
+            <div class="Room">
+                Raum 1003
+            </div>
+            <div class="Content">
+                <p>Englisch & Französisch</p>
+                <p>Austausch, Fahrten, Lehrwerke, Quiz</p>
+            </div>
+        </div>
+
+        <div class="PopUp1004" id="PopUp1004">
+            <div class="hide" onclick="closeAllPopUps()">X</div>
+            <div class="Room">
+                Raum 1004
+            </div>
+            <div class="Content">
+                Spanisch
+            </div>
+        </div>
+
+        <div class="PopUp1006" id="PopUp1006">
+            <div class="hide" onclick="closeAllPopUps()">X</div>
+            <div class="Room">
+                Raum 1006
+            </div>
+            <div class="Content">
+                Kunstausstellung, kreative Angebote
+            </div>
+        </div>
+
+        <script src="javascript.js"></script>
+    </body>
+</html>

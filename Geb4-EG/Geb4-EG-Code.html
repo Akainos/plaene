@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href='styles/style.css' rel='stylesheet' type='text/css'>
+        <title>Lageplan</title>
+    </head>
+
+    <body>
+        <img src="../images/Geb4-EG.jpg" alt="Geb4-EG" usemap="#Geb4-EG-Map">
+
+        <map name="Geb4-EG-Map">
+            <area class="RaumFoyer" id="Foyer" shape="poly" coords="1198,875,1468,849,1488,1004,1211,1017" alt="Foyer" onclick="showRaumFoyer()">
+            <area class="Raum4001" id="Raum4001" shape="poly" coords="793,732,1192,700,1211,1002,787,1028" alt="Raum4001" onclick="showRaum4001()">
+            <area class="Raum4003" id="Raum4003" shape="poly" coords="1475,912,1854,886,1886,1092,1481,1131" alt="Raum4003" onclick="showRaum4003()">
+            <area class="Raum4004" id="Raum4004" shape="poly" coords="1861,880,2311,848,2356,1053,1893,1092" alt="Raum4004" onclick="showRaum4004()">
+            <area class="Raum4008" id="Raum4008" shape="poly" coords="2697,599,2414,612,2459,759,2748,740" alt="Raum4008" onclick="showRaum4008()">
+            <area class="Raum4009" id="Raum4009" shape="poly" coords="1977,648,2414,616,2465,764,2002,796" alt="Raum4009" onclick="showRaum4009()">
+            <area class="Raum4010" id="Raum4010" shape="poly" coords="1681,661,1977,642,2009,796,1700,809" alt="Raum4010" onclick="showRaum4010()">
+        </map>
+
+        <a href="../HomepageGebäude4.html"><img class="return" src="../images/Return.jpg" alt="Return"></a>
+
+        <div class="PopUpFoyer" id="PopUpFoyer">
+            <div class="hide" onclick="closeAllPopUps()">X</div>
+            <div class="Room">
+                Foyer
+            </div>
+            <div class="Content">
+                <p>Gebrannte Mandeln, Tombola, Glücksrad</p>
+                <p>Kreismusikschule</p>
+            </div>
+        </div>
+
+        <div class="PopUp4001" id="PopUp4001">
+            <div class="hide" onclick="closeAllPopUps()">X</div>
+            <div class="Room">
+                Raum 4001
+            </div>
+            <div class="Content">
+                <p>Musik am StB:</p>
+                <p>Jugendchor       - 9:00-9:45</p>
+                <p>Oberstufenchor   - 9:45-11:15</p>
+                <p>Orchester        - 11:30-12:45</p>
+                <p>Junior-Bigband   - 12:45-13:45</p>
+            </div>
+        </div>
+
+        <div class="PopUp4003" id="PopUp4003">
+            <div class="hide" onclick="closeAllPopUps()">X</div>
+            <div class="Room">
+                Raum 4003
+            </div>
+            <div class="Content">
+                Schulband "Broken Crosses"
+            </div>
+        </div>
+
+        <div class="PopUp4004" id="PopUp4004">
+            <div class="hide" onclick="closeAllPopUps()">X</div>
+            <div class="Room">
+                Raum 4004
+            </div>
+            <div class="Content">
+                Psychologie "Alles steht Kopf"
+            </div>
+        </div>
+
+        <div class="PopUp4008" id="PopUp4008">
+            <div class="hide" onclick="closeAllPopUps()">X</div>
+            <div class="Room">
+                Raum 4008
+            </div>
+            <div class="Content">
+                <p>Beratungsteam und Schul-</p>
+                <p>psychologie stellen sich vor</p>
+            </div>
+        </div>
+
+        <div class="PopUp4009" id="PopUp4009">
+            <div class="hide" onclick="closeAllPopUps()">X</div>
+            <div class="Room">
+                Raum 4009
+            </div>
+            <div class="Content">
+                Siehe 4008
+            </div>
+        </div>
+
+        <div class="PopUp4010" id="PopUp4010">
+            <div class="hide" onclick="closeAllPopUps()">X</div>
+            <div class="Room">
+                Raum 4010
+            </div>
+            <div class="Content">
+                Siehe 4009
+            </div>
+        </div>
+
+        <script src="javascript.js"></script>
+    </body>
+</html>

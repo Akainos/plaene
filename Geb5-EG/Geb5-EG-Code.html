@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href='styles/style.css' rel='stylesheet' type='text/css'>
+        <title>Lageplan</title>
+    </head>
+
+    <body>
+        <img src="../images/Geb5-EG.jpg" alt="Geb5-EG" usemap="#Geb5-EG-Map">
+
+        <map name="Geb5-EG-Map">
+            <area class="RaumFoyer" id="RaumFoyer" shape="poly" coords="1565,804,2157,739,2176,868,1584,932" alt="RaumFoyer" onclick="showRaumFoyer()">
+        </map>
+
+        <a href="../homepageGebäude5.html"><img class="return" src="../images/Return.jpg" alt="Return"></a>
+
+        <div class="PopUpFoyer" id="PopUpFoyer">
+            <div class="hide" onclick="closeAllPopUps()">X</div>
+            <div class="Room">
+                Foyer
+            </div>
+            <div class="Content">
+                Förderverein
+            </div>
+        </div>
+
+        <script src="javascript.js"></script>
+    </body>
+</html>
